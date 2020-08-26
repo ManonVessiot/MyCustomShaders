@@ -63,18 +63,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\MyCustomShaders\Scripts\Core\MousePositionShader.cs" />
-    <Compile Include="Assets\MyCustomShaders\Scripts\Core\PostEffectScript.cs" />
-    <Compile Include="Assets\MyCustomShaders\Scripts\Core\RippleOriginPosition.cs" />
-    <None Include="Assets\MyCustomShaders\Scripts\Core\Shaders\CameraBloodEffect.shader" />
-    <None Include="Assets\MyCustomShaders\Scripts\Core\Shaders\Transparent.shader" />
-    <None Include="Assets\MyCustomShaders\Scripts\Core\Shaders\Degrade.shader" />
-    <None Include="Assets\MyCustomShaders\Scripts\Core\Shaders\ForceField.shader" />
-    <None Include="Assets\MyCustomShaders\Scripts\Core\Shaders\PostEffectShader.shader" />
-    <None Include="Assets\MyCustomShaders\Scripts\Core\Shaders\SimpleShader.shader" />
-    <None Include="Assets\MyCustomShaders\Scripts\Core\Shaders\GlowingCircle.shader" />
-    <None Include="Assets\MyCustomShaders\Scripts\Core\Shaders\TrackMouse.shader" />
-    <None Include="Assets\MyCustomShaders\Scripts\Core\Shaders\Water.shader" />
+    <Compile Include="Assets\MyCustomShaders\Scripts\MousePositionShader.cs" />
+    <Compile Include="Assets\MyCustomShaders\Scripts\PostEffectScript.cs" />
+    <Compile Include="Assets\MyCustomShaders\Scripts\RippleOriginPosition.cs" />
+    <None Include="Assets\MyCustomShaders\Shaders\CameraBloodEffect.shader" />
+    <None Include="Assets\MyCustomShaders\Shaders\Transparent.shader" />
+    <None Include="Assets\Cg Shaders\Shaders\Cg shader using blending.shader" />
+    <None Include="Assets\MyCustomShaders\Shaders\Degrade.shader" />
+    <None Include="Assets\Cg Shaders\Shaders\Cg shader Center Culling.shader" />
+    <None Include="Assets\MyCustomShaders\Shaders\ForceField.shader" />
+    <None Include="Assets\Cg Shaders\Shaders\Cg shader Culling.shader" />
+    <None Include="Assets\MyCustomShaders\Shaders\PostEffectShader.shader" />
+    <None Include="Assets\MyCustomShaders\Shaders\SimpleShader.shader" />
+    <None Include="Assets\MyCustomShaders\Shaders\GlowingCircle.shader" />
+    <None Include="Assets\MyCustomShaders\Shaders\TrackMouse.shader" />
+    <None Include="Assets\MyCustomShaders\Shaders\Water.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/manon/Documents/Unity/Tuto/Tuto _ MyCustomShaders/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
